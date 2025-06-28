@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+                  <html lang='en'>
+                  <head>
+                    <meta charset='UTF-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                    <title>Email Preview</title>
+                    <style>
+                      body {
+                        margin: 0;
+                        padding: 32px;
+                        font-family: sans-serif;
+                        transition: background 0.3s, color 0.3s;
+                      }
+
+                      body.light {
+                        background-color: #ffffff;
+                        color: #000000;
+                      }
+
+                      body.dark {
+                        background-color: #121212;
+                        color: #ffffff;
+                      }
+
+                      body.dark a {
+                        color: #66aaff;
+                      }
+
+                      .box {
+                        background: #eaeaea;
+                        padding: 24px;
+                        border-radius: 8px;
+                      }
+
+                      body.dark .box {
+                        background: #2a2a2a;
+                      }
+                    </style>
+                  </head>
+                  <body class='light'>
+                    <div class='box'>
+                      <h1>Hello, world!</h1>
+                      <p>This is a preview of your email.</p>
+                      <a href='#'>Click here</a>
+                    </div>
+                  </body>
+                  </html>
